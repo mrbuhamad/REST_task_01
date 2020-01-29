@@ -20,4 +20,4 @@ class Booking(models.Model):
 
 	def __str__(self):
 		return "%s: %s" % (self.user.username, str(self.flight))
-		#commet
+		#commet new 
